@@ -1,0 +1,268 @@
+<resources>
+    <string name="app_name">GNITS</string>
+    <string name="physical_education">PHYSICAL EDUCATION</string>
+    <string-array name="bu">
+        <item>BUSROUTE NO.1D</item>
+        <item>BUSROUTE NO.2D</item>
+        <item>BUSROUTE NO.3D</item>
+        <item>BUSROUTE NO.4D</item>
+        <item>BUSROUTE NO.5D</item>
+        <item>BUSROUTE NO.6D</item>
+        <item>BUSROUTE NO.10E</item>
+        <item>BUSROUTE NO.11E</item>
+        <item>BUSROUTE NO.12E</item>
+        <item>BUSROUTE NO.13E</item>
+        <item>BUSROUTE NO.14E</item>
+        <item>BUSROUTE NO.15E</item>
+        <item>BUSROUTE NO.16E</item>
+        <item>BUSROUTE NO.20K</item>
+        <item>BUSROUTE NO.21K</item>
+        <item>BUSROUTE NO.22K</item>
+        <item>BUSROUTE NO.23K</item>
+        <item>BUSROUTE NO.27P</item>
+    </string-array>
+
+    <string name="data1">
+           \t  The dept. of Physical Education is headed by Dr.M.V.L.Surya Kumari.She has more than 15 years teaching experience in the field of Physical Education.\n\n
+</string>
+
+    <string name="data2">
+
+
+           \t  The department of Physical Education was established in January 2002. The management has appointed coaches for the various games and sports who train the students to participate in inter college and university level competitions and has succeeded in achieving many golden moments for the college.\n\n
+</string>
+    <string name="data3">
+
+             
+            \t The department was established with the following objectives.\n
+         *\t Development of wholesome personality of all the students through their participation in various sports and games.\n
+         *\tDevelopment of sports infrastructural facilities.\n
+         *\tPreparation of college teams for the inter college and university tournaments in different events.\n
+         *\t Organization of intra college competitions between different departments to provide opportunity for all the students to participate in various sports events.\n\n
+</string>
+    <string name="data4">
+
+
+          A Spacious room for INDOOR games is equipped with facilities to play Table tennis, Chess and Carroms.\n
+          An Indoor badminton stadium with two wooden courts.\n
+          A Fitness wing has been established with latest Exercise-Cycle, Twisters and Ab-Slimmer etc.\n\n
+</string>
+    <string name="data5">
+
+       -> One Basketball court\n
+       -> Two Volleyball courts\n
+       -> Two Throw ball courts\n
+       -> One Handball court\n
+       -> One Kho-Kho field\n
+       -> 200 Mts. Running track\n\n
+</string>
+    <string name="data6">
+
+            * GNITS got JNTU  central zone sports and games girls over all championship from past 8 years consecutively.\n
+            * GNITS got zone-a games and sports over all championship from past 5 years consecutively.\n
+            * From 2003-2014,  86 students represented JNTU in the inter university tournaments.\n
+            * During 2013-14, two tennis players from this college represented JNTU in the central zone all India University Tournament and won Silver Medal and participated in inter zonal Inter University Tournament.\n
+       </string>
+
+
+    <string-array name="deptnames">
+        <item>Computer Science and Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Electrical and Electronics Engineering</item>
+        <item>Information Technology</item>
+        <item>Electronics and Telematics Engineering</item>
+    </string-array>
+    <string name="title_activity_abtus">Aboutus</string>
+    <string name="action_settings">Settings</string>
+    <string name="csev">
+       To provide engineering education in the field of Computer Science with evolving technologies and to produce self motivated, employable individuals to society.\n
+
+    </string>
+    <string name="csem">
+       1) To pioneer education in Computer Science and Engineering, Mathematics and Sciences, to mould the overall personality of students.\n
+        2)To nurture the students to be dynamic, industry ready and to have multidisciplinary skills and leadership qualities.\n
+         3)To inculcate work ethics and commitment in students for their future endeavours to serve the society.\n
+
+
+    </string>
+    <string name="csep">
+
+
+\t  PEO 1 :  The student should be able to apply their knowledge in Mathematics, Science, Engineering as well as Computer Science along with programming skills in their career and higher education.\n
+
+\t  PEO 2 : They are expected to communicate well and get ready for understanding the importance of social, business, technical and ethical aspects with which a process or product is designed.\n
+
+\t  PEO 3 : They should be able to excel in multidisciplinary teams, develop leadership roles and inculcate problem solving capability, design skills and other diverse career paths.\n
+
+\t  PEO 4 : They should develop an interest in knowledge enhancement with the evolving technologies and thinking beyond the present.\n
+    </string>
+    <string name="ecev">
+        \t  ECE dept envisions to develop high quality and technically competent women engineers who can address the growing challenges in the modern world with a keen sense of social responsibility.\n
+
+    </string>
+    <string name="ecem">
+        \t  To inculcate analytical and design skills ,bridge the gap between academics and industry requirements while nourishing the creative spirits, leader ship qualities and compassion in women engineers with social ethics for the betterment.\n
+
+    </string>
+   <string name="ecep">
+      \t  PEO1: To impart the knowledge of basic sciences , mathematics and programming skills in solving various Engg. problems pertaining to the field of Electronics and Communications.\n
+
+\t  PEO2: To train the students in analyzing , designing and imparting research based knowledge and acquainting them with modern scientific tools.\n
+
+\t  PEO 3:To create professional , ethical environment and to inculcate effective communication skills .\n
+
+\t  PEO 4: To encourage team work and interdisciplinary ideas benefiting the society.\n
+
+\t  PEO 5: To motivate students to be independent with a desire for life long learning and adapt to the changing professional needs .\n
+   </string>
+    <string name="eeev">
+        \t  To impart quality education in Electrical and Electronics Engineering for women empowerment.\n
+    </string>
+    <string name="eeem">
+        \t  1) Imparting fundamental knowledge in Electrical and Electronics Engineering through well-qualified faculty.\n
+
+\t  2) Providing exposure to current technologies.\n
+
+\t  3) Providing hands-on experience to meet the expectations of the industry.\n
+
+\t  4) Facilitating individual and team activities to enhance personality and soft skills.\n
+    </string>
+    <string name="eeep">
+        \t  1. Excel in chosen career.\n
+
+\t  2. Work effectively as an individual and a team member.\n
+
+\t  3. Contribute to the community/society development through acquired knowledge and skills.\n
+
+\t  4. Continuous upgradation of knowledge and skills.\n
+    </string>
+    <string name="itv">
+        \t  To build a collaborative academic environment that responds swiftly to the challenges of Information technology.\n
+    </string>
+    <string name="itm">
+        To foster an intellectual environment that delivers virtuous Information Technocrats with commitment to industry and society by strengthening the logical, analytical and applicative skills to excel academically and professionally. To inculcate good communication skills in students and introduce them to various codes of professional practices for carrying out effective team collaborations and project management in the field of IT.\n
+
+    </string>
+    <string name="itp">
+       \t   PEO1: To provide students with a compelling foundation in Engineering and Basic Sciences that will further help them conduct investigations of complex problems.\n
+
+\t  PEO2: To apply scientific and Engineering methodologies using modern tools and techniques in the analysis, design, implementation and evaluation of information in the field of IT.​\n
+
+\t  PEO3: To promote life long learning and help students in aiming for higher education and become successful Engineers in the society.\n
+
+\t  PEO4: To inculcate strong communication skills, ethics and various codes of professional practices useful in performing effective project management and team collaborations and enable them to sustain and excel in various environments .\n
+    </string>
+    <string name="etmv">
+        \t  Imparting quality technical education in the field of Electronics and Telematics Engineering for women empowerment .\n
+    </string>
+<string name="etmm">
+    \t  1)To emerge as a Centre of Academic Excellence in Electronics and Telematics Engineering to face the challenges in the field of information and communication technologies .\n
+\t  2)To create the Educational Environment which enables the students for life long learning.\n
+\t  3)Imparting value based education for women empowerment.\n
+</string>
+    <string name="etmp">
+        \t  1. Graduates will excel in professional careers in Industry and academics that fulfill the needs of Information and Communication Technology (ICT).\n
+
+\t  2. Graduates will be able to work with advanced technologies relevant to Electronics and Telematics Engineering.\n
+
+\t  3. Graduates will be able to work in diversified teams of multidisciplinary environment to gain engineering breadth.\n
+
+\t  4. Graduates will exhibit all-round education that includes communication skills, ability to work well in a team, an awareness of ethical values and to engage in lifelong learning.\n
+
+
+    </string>
+    <string name="csi">
+        \t The CSI club under CSE organises technical events and also conducts workshops for CSI members.\n
+    </string>
+    <string name="csi1">
+        \t TECH QUIZ\n\n
+        \t PAPER PRESENTATION\n\n
+        \t REVERSE CODING \n\n
+        \t JUMBLED WORDS \n\n
+
+    </string>
+    <string name="cyber">
+        \t \t\t The cybersurds under CSE organises both technical and non-technical events in the campus.\n
+    </string>
+    <string name="cyber1">
+        \t POSTER PREESENTATION \n\n
+        \t BLIND CODING\n\n
+        \t RANGOLI \n\n
+        \t BEST OUT OF WASTE \n\n
+        \t TECH LADDER \n\n
+        \t PICTURE PUZZLE\n\n
+        \t MEHENDI DESIGN \n\n
+    </string>
+    <string name="ece">
+        \t The ECE Association under ECE involves all nontechnical events \n
+    </string>
+<string name="ece1">
+    \tDUBSMASH\n\n
+    \tSINGING\n\n
+    \tRANGOLI\n\n
+</string>
+    <string name="ece2">
+        \t The IETE club under ECE involves  technical events and related workshops \n
+    </string>
+    <string name="ece3">
+        \t POSTER PRESENTATION\n\n
+        \t TECHNICAL QUIZ\n\n
+        \t C TEST\n\n
+    </string>
+    <string name="eee">
+        \t The TEJAS club under EEE involves both technical and non-technical events for EEE students\n
+    </string>
+    <string name="eee1">
+        \t RANGOLI\n\n
+        \t POSTER PRESENTATION\n\n
+        \t PROJECT EXPO\n\n
+        \t CARD MAKING\n\n
+        \t POSTER COLLAGE\n\n
+        \t GROUP DISCUSSION\n\n
+        \t DEBATES\n\n
+    </string>
+    <string name="it">
+        \t The Technoboom club under IT departement involoves both technical and non technical events for IT department students.\n
+    </string>
+    <string name="it1">
+        \t POT PAINTING\n\n
+        \t RANGOLI\n\n
+        \t MASTER CHEF\n\n
+        \t PAPER PRESENTATION\n\n
+        \t POSTER PRESENTATION\n\n
+        \t CELLULOSE OUTFIT SCULE\n\n
+        \t CREATIVE NARRATION\n\n
+        \t BEST OUT OF WASTE\n\n
+    </string>
+   <!--<string name="abt1">
+        \t G.Narayanamma Institute of Technology and Science (GNITS) (For Women), sponsored by G.Pulla Reddy Charities Trust was started on 15th December 1997.GNITS has been accredited by NBA once. It has achieved permanent affiliation of JNTU, Hyderabad in the year 2007-2008 for a period of three years and again from 2009-10 to 2011-12.The institute is maintaining about 90% as pass percentage for outgoing students in all most all courses. The college has developed 4,01,100 Sq.Ft. of infrastructure to accommodate 2500 students. Two hostel buildings have been constructed within the campus to accommodate 650 boarders. There are some air conditioned rooms to accommodate the needy students. 25 mbps leased line is provided and the total campus is provided with Wi-fi facility. Achieving more than 80 to 85% placements every year is one of the GNITS speciality.\n
+
+    </string>
+-->
+    <string name="abt2">
+        \tTo become a center of quality education in Engineering and Technology for women empowerment.
+    </string>
+    <string name="abt3">
+
+\t*To fulfill the academic aspirations of women engineers for enhancing their intellectual capabilities and technical competency.\n
+\t*To Leverage Leading – Edge Technologies and cultivate exemplary work culture.\n
+\t*To facilitate success in their desired career in the field of engineering to build a progressive nation.\n
+    </string>
+    <string name="log">
+        \t "G NARAYANAMMA INSTITUTE OF TECHNOLOGY AND SCIENCE(FOR WOMEN)\n
+
+    </string>
+    <string name="logt">
+        \t\t\t\t\t WELCOME!!!
+    </string>
+    <string name="etm">
+        \t The TELESTORM under ETM department involves both technical and non technical events.\n
+    </string>
+    <string name="etmn">
+        \tGROUP DISCUSSION\n\n
+        \tPAPER PRESENTATION\n\n
+        \tMAD AD-PRODUCT PROMOTION\n\n
+        \tPOT PAINTING\n\n
+        \tBEST OUT OF WASTE\n\n
+    </string>
+</resources>

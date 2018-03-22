@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+    tools:context="com.example.gayat.gnits.Main2Activity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+
+        android:gravity="center"
+        android:text="@string/log"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/imageView10"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:gravity="center"
+        android:text="@string/logt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:textColor="@color/common_action_bar_splitter"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="93dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="107dp"
+        app:srcCompat="@drawable/log"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+
+</RelativeLayout>

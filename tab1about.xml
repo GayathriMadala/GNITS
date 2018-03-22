@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gayat.gnits.aboutus$PlacementholderFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="520dp"
+        android:layout_height="280dp"
+
+        app:srcCompat="@drawable/pulla"
+        tools:ignore="ContentDescription"
+        tools:layout_editor_absoluteX="-18dp"
+        tools:layout_editor_absoluteY="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:text=" \t G.Narayanamma Institute of Technology and Science (GNITS) (For Women), sponsored by G.Pulla Reddy Charities Trust was started on 15th December 1997.GNITS has been accredited by NBA once. It has achieved permanent affiliation of JNTU, Hyderabad in the year 2007-2008 for a period of three years and again from 2009-10 to 2011-12.The institute is maintaining about 90% as pass percentage for outgoing students in all most all courses. The college has developed 4,01,100 Sq.Ft. of infrastructure to accommodate 2500 students. Two hostel buildings have been constructed within the campus to accommodate 650 boarders. There are some air conditioned rooms to accommodate the needy students. 25 mbps leased line is provided and the total campus is provided with Wi-fi facility. Achieving more than 80 to 85% placements every year is one of the GNITS speciality.\n"
+            android:textColor="@android:color/black"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/imageView9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="362dp"
+            android:layout_height="40dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView69"
+            android:fontFamily="serif-monospace"
+            android:text="VISION"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="?attr/actionModeSplitBackground"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="7dp" />
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView70"
+            android:text="@string/abt2"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="362dp"
+            android:layout_height="40dp"
+
+            android:layout_marginTop="22dp"
+            android:fontFamily="serif-monospace"
+            android:text="MISSION"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="?attr/actionModeSplitBackground"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="7dp"
+            android:layout_below="@+id/textView71"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView72"
+            android:text="@string/abt3"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+</RelativeLayout>
+
+</ScrollView>

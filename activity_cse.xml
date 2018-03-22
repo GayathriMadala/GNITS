@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gayat.gnits.cse">
+
+    <view
+        android:id="@+id/toolbar3"
+        class="android.support.v7.widget.Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:background="@color/colorPrimaryDark"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <ImageButton
+        android:id="@+id/ib1"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar3"
+        android:layout_marginTop="45dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/mnv" />
+
+    <ImageButton
+        android:id="@+id/ib2"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ib1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/syllabus" />
+
+    <ImageButton
+        android:id="@+id/ib3"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="45dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/attend"
+        android:layout_below="@+id/ib1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="b1"
+        />
+
+    <ImageButton
+        android:id="@+id/ib4"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ib3"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/clubs" />
+
+</RelativeLayout>

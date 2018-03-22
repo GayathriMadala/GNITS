@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gayat.gnits.club3">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="362dp"
+            android:layout_height="40dp"
+
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="TEJAS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="?android:attr/textColorLinkInverse"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="7dp"
+
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:layout_below="@+id/view4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="520dp"
+            android:layout_height="280dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView60"
+            app:srcCompat="@drawable/eee2"
+            tools:ignore="ContentDescription"
+            tools:layout_editor_absoluteX="-18dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView7"
+            android:layout_marginTop="20dp"
+            android:text="@string/eee"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="362dp"
+            android:layout_height="40dp"
+            android:fontFamily="serif-monospace"
+
+            android:text="EVENTS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="7dp"
+            android:layout_marginTop="102dp"
+            android:layout_alignTop="@+id/textView61"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView60"
+            android:layout_alignStart="@+id/textView60"
+            android:layout_below="@+id/textView62"
+            android:layout_marginLeft="9dp"
+            android:layout_marginStart="9dp"
+            android:text="@string/eee1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

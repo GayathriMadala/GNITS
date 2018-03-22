@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gayat.gnits.club2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="362dp"
+            android:layout_height="40dp"
+
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="ECE ASSOCIATION"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="?android:attr/textColorLinkInverse"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="7dp"
+
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_below="@+id/view3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="520dp"
+            android:layout_height="280dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView52"
+            app:srcCompat="@drawable/ece1"
+            tools:ignore="ContentDescription"
+            tools:layout_editor_absoluteX="-18dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView5"
+            android:layout_marginTop="20dp"
+            android:text="@string/ece"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="362dp"
+            android:layout_height="40dp"
+            android:fontFamily="serif-monospace"
+
+            android:text="EVENTS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="7dp"
+            android:layout_marginTop="99dp"
+            android:layout_alignTop="@+id/textView53"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ece1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_below="@+id/textView54"
+           />
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="362dp"
+            android:layout_height="40dp"
+
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="IETE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="?android:attr/textColorLinkInverse"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="7dp"
+            android:layout_below="@+id/textView55"
+            android:layout_centerHorizontal="true" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="520dp"
+            android:layout_height="280dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            app:srcCompat="@drawable/eee1"
+            android:layout_below="@+id/textView56"
+            tools:ignore="ContentDescription"
+            tools:layout_editor_absoluteX="-18dp"
+            tools:layout_editor_absoluteY="48dp" />
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ece2"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            android:layout_below="@+id/imageView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="362dp"
+            android:layout_height="40dp"
+            android:fontFamily="serif-monospace"
+
+            android:text="EVENTS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="7dp"
+
+            android:layout_below="@+id/textView57"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ece3"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_below="@+id/textView58"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp" />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

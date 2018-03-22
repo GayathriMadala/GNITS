@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gayat.gnits.syll5">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:background="@color/colorAccent"
+        android:text="1-1 semester"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="82dp"
+        android:onClick="s1"
+        android:layout_alignBaseline="@+id/button5"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:background="@color/colorAccent"
+        android:text="1-2 SEMESTER"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="82dp"
+        android:onClick="s2"
+        android:layout_marginBottom="87dp"
+        android:layout_above="@+id/button6"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:background="@color/colorAccent"
+        android:text="2-1 SEMESTER"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="217dp"
+        android:onClick="s3"
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:background="@color/colorAccent"
+        android:text="2-2 SEMESTER"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="217dp"
+        android:onClick="s4"
+        android:layout_marginBottom="88dp"
+        android:layout_above="@+id/button8"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:background="@color/colorAccent"
+        android:text="3-1 SEMESTER"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="354dp"
+        android:onClick="s5"
+        android:layout_alignBaseline="@+id/button9"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:background="@color/colorAccent"
+        android:text="3-2 SEMESTER"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="354dp"
+        android:onClick="s6"
+        android:layout_marginBottom="83dp"
+        android:layout_above="@+id/button10"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:background="@color/colorAccent"
+        android:text="4-1 SEMESTER"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="489dp"
+        android:onClick="s7"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_alignBaseline="@+id/button11"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:background="@color/colorAccent"
+        android:text="4-2 SEMESTER"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="489dp"
+        android:onClick="s8"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="92dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

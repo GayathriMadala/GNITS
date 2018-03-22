@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    tools:context="com.example.gayat.gnits.MainActivity">
+
+    <ImageSwitcher
+        android:id="@+id/switcher"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_gravity="top|center|fill"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/switcher"
+
+        android:adjustViewBounds="true"
+        android:elevation="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/abtus"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/switcher"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:elevation="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bus" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/dept"
+        android:layout_below="@+id/switcher"
+        android:layout_toRightOf="@+id/imageButton5"
+        android:layout_toEndOf="@+id/imageButton5" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/contacts"
+        android:layout_below="@+id/imageButton4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/website"
+        android:layout_alignBottom="@+id/imageButton7"
+        android:layout_alignLeft="@+id/imageButton5"
+        android:layout_alignStart="@+id/imageButton5"
+        android:onClick="browser1"/>
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/sports"
+        android:layout_below="@+id/imageButton6"
+        android:layout_alignLeft="@+id/imageButton6"
+        android:layout_alignStart="@+id/imageButton6" />
+
+
+
+</RelativeLayout>
